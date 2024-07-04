@@ -1,0 +1,18 @@
+h1{
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#container > .blue-box{
+    height: 200px;
+    width: 800px;
+    background-color: #0057B7;
+}
+#container > .yellow-box{
+    height: 200px;
+    width: 800px;
+    background-color: #FFDD00;
+}
